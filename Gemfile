@@ -1,5 +1,10 @@
 source 'https://rubygems.org'
 
+# 반응형 모바일 웹브라우져 환경을 구축하기 위한 프론트엔드 프레임워크 중의 하나인 Twitter-Bootstrap(줄여서 Bootstrap이라고도 함)을 레일스 프로젝트에서 사용하기 쉽게 해 주는 젬이다.
+gem 'bootstrap-sass', '~> 3.3.3'
+
+# bootstrap과 함께 레일스의 form_for 헬퍼메소드을 사용할 때 잘 어울리는 젬이다.
+gem 'simple_form', '3.1.0'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.4'

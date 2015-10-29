@@ -1,6 +1,8 @@
 Rails.application.routes.draw do
-  resources :bulletins
-  resources :posts
+  resources :bulletins do
+    resources :posts
+  end
+  
   # You can have the root of your site routed with "root"
   root 'welcome#index'
 

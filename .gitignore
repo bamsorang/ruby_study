@@ -16,3 +16,6 @@
 !/log/.keep
 /tmp
 /.idea
+
+# 업로드된 파일
+public/uploads/*

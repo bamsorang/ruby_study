@@ -1,5 +1,8 @@
 source 'https://rubygems.org'
 
+# 이미지 크기를 조절하기 위해서 Rmagick이나 MiniMagick 젬을 추가한다. carrierwave 문서에 따르면 MiniMagick 젬을 추천
+gem 'mini_magick'
+
 # carrierwave 젬을 사용
 gem 'carrierwave'
 

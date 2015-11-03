@@ -1,14 +1,15 @@
 Rails.application.routes.draw do
-  get 'comments/create'
+  # You can have the root of your site routed with "root"
+  root 'welcome#index'
 
-  get 'comments/destroy'
+  resources :posts do
+    resources :comments
+  end
 
   resources :bulletins do
     resources :posts
   end
-  
-  # You can have the root of your site routed with "root"
-  root 'welcome#index'
+
 
   # get 'welcome/index'
 

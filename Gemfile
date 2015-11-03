@@ -1,5 +1,8 @@
 source 'https://rubygems.org'
 
+# 태그 젬 - https://github.com/mbleigh/acts-as-taggable-on
+gem 'acts-as-taggable-on'
+
 # awesome 폰트를 사용
 gem "font-awesome-rails"
 

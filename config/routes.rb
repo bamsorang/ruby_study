@@ -2,8 +2,9 @@ Rails.application.routes.draw do
   # You can have the root of your site routed with "root"
   root 'welcome#index'
 
+  # 실제로 필요한 라우트만 사용하기 위해
   resources :posts do
-    resources :comments
+    resources :comments, only: [:create, :destroy]
   end
 
   resources :bulletins do
